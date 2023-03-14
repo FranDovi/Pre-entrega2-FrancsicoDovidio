@@ -1,0 +1,349 @@
+
+body{
+    list-style: none;
+    background-image: url(../multimedia/6173954.jpg);
+    background-position:center;
+
+
+    background-color: rgba(225, 238, 239, 0.732);
+    opacity: 95%;
+    height: 100vh;
+    height: 100%;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+/*Barra de navegacion*/
+
+#navbar {
+    background-color: rgb(84, 134, 134) ;
+
+}
+#navbar ul{
+    background-color: rgb(84, 134, 134) ;
+
+}
+
+#navbar img{
+    margin-bottom: 10px;
+}
+/*Pie de pagina*/
+.pie-de-pagina{
+    background-color: rgba(255, 255, 255, 0.069);
+}
+.pie-de-pagina li{
+    padding: 4px;
+    list-style: none;
+}
+.pie-de-pagina a{
+    color: white;
+}
+
+/*Index*/
+.carousel-inner{
+    max-height: 700px;
+}
+
+#card{
+    background-color: rgba(255, 255, 255, 0);
+color: rgba(140, 170, 166, 0.938);
+}
+#card img{
+    height: 20rem;
+}
+
+/*Buscar*/
+
+.buscadorlateral {
+    padding: 15px;
+    background-color: rgb(84, 134, 134);
+    color: rgb(255, 255, 255);
+    border-radius: 1em; 
+    border: 2px solid black;
+
+}
+
+.filtros{
+    background-color: rgb(55, 104, 104);
+}
+.buscadorlateral input{
+    background-color: rgb(212, 245, 245);
+}
+
+#banner{
+    background-color: rgb(194, 242, 242)
+}
+
+
+#banner-text{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+/*Registrarse*/
+.ingresg{
+    height: 100%;
+    width: auto;
+    display: grid;
+    grid-template-areas:"encabezado encabezado"
+                        "nav nav"
+                        "ingresar registrarse"
+                        "pie-de-pagina pie-de-pagina" ;
+                        grid-template-rows: 15% 10% 70% 5%;
+                        grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.ingresar {
+    grid-area: ingresar;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    width: 600px;
+    height: 100%;
+    max-width: 600px;
+    color: rgba(255, 255, 255, 0.902);
+    background-color:rgb(83, 124, 133);
+    border-radius: 1em;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.ingresar li{
+    text-align: center;
+    padding: 5px;
+    list-style: none;
+}
+
+.ingresar input{
+    border: 0;
+    border-radius: 1em;
+    padding: 5px;
+    background-color: rgb(212, 245, 245);
+}
+.ingresar .botones input{
+    border: thin;
+}
+.registrarse {
+    grid-area: registrarse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    justify-self: center;
+    width: 600px;
+    background-color: rgba(47, 108, 108, 0.741);
+    max-width: 600px;
+    border-radius: 1em;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.registrarse li {
+    color: rgb(249, 254, 255);
+    list-style: none;
+    padding: 5px;
+}
+.registrarse input {
+    border: 0;
+    border-radius: 1em;
+    padding: 5px;
+    background-color: rgba(152, 214, 214, 0.939);
+}
+.registrarse .botones input{
+    border: thin;
+    margin-bottom: 5px;
+}
+/*Contacto*/
+.contacto-body{
+    height: 100%;
+    width: auto;
+    display: grid;
+    grid-template-areas:"encabezado encabezado"
+                        "nav nav"
+                        "banner banner"
+                        "contacto contacto"
+                        "pie-de-pagina pie-de-pagina" ;
+    gap: 5px;
+}
+
+.contacto {   
+    grid-area: contacto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgba(112, 182, 182, 0.466);
+    border-radius: 1em;
+    padding: 20px;
+}
+
+.banner {
+    grid-area: banner;
+    text-align: center;
+    background-color: rgba(112, 182, 182, 0.466);
+    color: white;
+    border-radius: 1em ;
+    padding: 10px;
+}
+.banner h2{
+    font-weight: 140%;
+}
+
+.contacto .botones input{
+    border: 0;
+    border-radius: 1em;
+    color: white;
+    background-color: rgb(93, 146, 146);
+    border: thin black;
+}
+
+.contacto input {
+    border: 0;
+    border-radius: 1em;
+    padding: 7px;
+    margin: 5px;
+    background-color: rgb(103, 149, 149);
+}
+
+.consulta textarea{
+    border: 0;
+    border-radius: 1em;
+    background-color: rgb(93, 141, 141);
+}
+
+/*Orientacion*/
+
+
+.Introduccion{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.Introduccion span{
+    font-size: 50px;
+    border-radius: 1em;
+    padding: 10px;
+    color: white;
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color: rgb(93, 146, 146);
+}
+.Introduccion p{
+    margin: 20px;
+}
+
+.Psicotarjeta {
+    grid-area: psicotarjeta;
+    height: 500px;
+    justify-self: center;
+    width: 500px;
+    border-radius: 1em;
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color:  rgb(93, 146, 146);
+    overflow: hidden;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.portadapsic{
+    width: 500px;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(75, 165, 165) ;
+}
+
+.portadapsic img{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+
+}
+
+
+.infopsic{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height:0px;
+    text-align: center;
+    justify-content: center;
+    background-color:  rgba(50, 84, 84, 0.62);
+    overflow: hidden;
+}
+
+.infopsic h3{
+    margin: 20px;
+}
+
+div.Psicotarjeta:hover div.portadapsic{
+    height: 0px ;
+    width: 0px;
+}
+
+div.Psicotarjeta:hover div.infopsic{
+    width: 500px;
+    height:500px;
+}
+
+.cognitarjeta{
+    grid-area: cognitarjeta;
+    height: 500px;
+    justify-self: center;
+    width:500px;
+    border-radius: 1em;
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color:  rgb(93, 146, 146);
+    overflow: hidden;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.portadacogni{    
+    width: 500px;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(75, 165, 165) ;
+
+}
+.portadacogni img{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.infocogni{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height:0px;
+    text-align: center;
+    justify-content: center;
+    background-color:  rgba(50, 84, 84, 0.62);
+    overflow: hidden;
+}
+
+.infocogni h3{
+    margin:20px;
+}
+
+div.cognitarjeta:hover div.portadacogni{
+    height: 0px ;
+    width: 0px;
+}
+
+div.cognitarjeta:hover div.infocogni{
+    width: 500px;
+    height:500px;
+}
+
+
+@media screen and (max-width: 1000px){
+
+}
