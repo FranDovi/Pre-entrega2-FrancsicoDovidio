@@ -29,8 +29,11 @@ a:link, a:visited, a:active {
     margin-bottom: 10px;
 }
 /*Pie de pagina*/
-.pie-de-pagina{
+#pie-conteiner{
     background-color: rgba(255, 255, 255, 0.069);
+}
+.pie-de-pagina{
+    padding: 1rem;
 }
 .pie-de-pagina li{
     padding: 4px;
@@ -39,7 +42,10 @@ a:link, a:visited, a:active {
 .pie-de-pagina a{
     color: white;
 }
-
+#imagen-pie{
+    height: 10rem;
+    background-color: rgba(255, 255, 255, 0.069); 
+}
 /*Index*/
 .carousel-inner{
     max-height: 700px;
@@ -72,14 +78,15 @@ color: rgba(140, 170, 166, 0.938);
 }
 
 #banner{
-    background-color: rgb(194, 242, 242)
+    background-color: rgba(255, 255, 255, 0.069);
 }
-
+.navbar-text{
+    color: rgba(255, 255, 255, 0.745);
+}
 
 #banner-text{
     display: flex;
     justify-content: center;
-    color: black;
 }
 /*Registrarse*/
 .ingresg{
